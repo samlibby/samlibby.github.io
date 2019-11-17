@@ -13,6 +13,9 @@ body,h3,h4,h5 {font-family: serif}
   overflow: hidden;
   background-color: #ffffff;
   cursor: pointer;
+/*https://css-tricks.com/sticky-smooth-active-nav/ */  
+  position: sticky;
+  top: 0;
 }
 
 li {

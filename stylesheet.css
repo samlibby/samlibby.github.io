@@ -16,10 +16,7 @@ body,h3,h4,h5 {font-family: serif}
 }
 
 /*https://css-tricks.com/sticky-smooth-active-nav/ */  
- #navbar.ul {
-    position: sticky;
-    top: 0;
-  }
+ul {position: sticky;top: 0;}
 
 li {
   float: left;

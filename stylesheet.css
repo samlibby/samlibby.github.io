@@ -15,9 +15,6 @@ body,h3,h4,h5 {font-family: serif}
   cursor: pointer;
 }
 
-/*https://css-tricks.com/sticky-smooth-active-nav/ */  
-ul {position: fixed;top: 0;}
-
 li {
   float: left;
 }

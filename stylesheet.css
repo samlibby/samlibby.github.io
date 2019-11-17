@@ -13,10 +13,14 @@ body,h3,h4,h5 {font-family: serif}
   overflow: hidden;
   background-color: #ffffff;
   cursor: pointer;
-/*https://css-tricks.com/sticky-smooth-active-nav/ */  
-  position: sticky;
-  top: 0;
 }
+
+/*https://css-tricks.com/sticky-smooth-active-nav/ */  
+@media (min-height: 300px) {
+  nav ul {
+    position: sticky;
+    top: 0;
+  }
 
 li {
   float: left;

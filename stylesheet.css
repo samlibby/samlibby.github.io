@@ -21,10 +21,22 @@ li {
 
 li a {
   display: block;
-  color: #000000;
+  text-color: #000000;
   text-align: center;
   padding: 20px 20px;
   text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    #navbar {
+        float: none;
+        width: 100%;
+    }
+}
+
+#navbar:hover {
+    background-color: green;
+    color: #ffffff;
 }
 
 /* end of 'nav bar' style */

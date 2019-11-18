@@ -34,7 +34,7 @@ li a {
     }
 }
 
-#navbar:hover {
+li a:hover {
     background-color: green;
     color: #ffffff;
 }

@@ -40,6 +40,11 @@ li a:hover {
     color: #ffffff;
 }
 
+.logo {float: left;
+  width: 150px;
+  padding: 10px;
+}
+
 /* end of 'nav bar' style */
 
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}

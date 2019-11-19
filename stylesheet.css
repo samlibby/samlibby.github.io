@@ -40,8 +40,9 @@ li a:hover {
     color: #ffffff;
 }
 
-.logo {float: left;
+img {float: left;
   width: 300px;
+  padding: 10px;
 }
 
 /* end of 'nav bar' style */

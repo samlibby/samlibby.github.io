@@ -1,13 +1,14 @@
 /* W3.CSS 4.13 June 2019 by Jan Egil and Borge Refsnes */
 
 /* FONT */
-h1, h2 {font-family: "Mountains of Christmas", serif}
-body,h3,h4,h5 {font-family: serif}
+h3 {font-family: "Mountains of Christmas", serif;}
+h1,body,h2,h4,h5 {font-family: "Agency FB Bold", serif;}
 
 /* NAV BAR */
-
+/* NAV BAR BORDER REFERENCE https://stackoverflow.com/questions/42707218/css-how-to-put-a-border-around-the-entire-nav-bar*/
 #navbar {
   list-style-type: none;
+  border: 1px solid #5F9239;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -21,7 +22,8 @@ li {
 
 li a {
   display: block;
-  text-color: #000000;
+  color: #5F9239;
+  
   text-align: center;
   padding: 20px 20px;
   text-decoration: none;
@@ -40,18 +42,25 @@ li a:hover {
     color: #ffffff;
 }
 
+/* end of 'nav bar' style */
+
 .logo {float: left;
   width: 300px;
   padding: 10px;
 }
 
-/* end of 'nav bar' style */
+/*aligning the footer statement to be centred */
+
+#footer {
+    text-align: center;
+}
 
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}summary{display:list-item}
-
+audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
+audio:not([controls]){display:none;height:0}[hidden],template{display:none}
 a{background-color:transparent}a:active,a:hover{outline-width:0}
 abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
 b,strong{font-weight:bolder}dfn{font-style:italic}mark{background:#ff0;color:#000}

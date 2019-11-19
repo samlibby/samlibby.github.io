@@ -51,6 +51,17 @@ li a:hover {
   padding: 10px;
 }
 
+/* making the image fit as the background for the services block on the home page */
+
+#services_home {background-image: url("northpole.jpeg");
+  background-color: #ffffff;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 /*aligning the footer statement to be centred */
 
 #footer {

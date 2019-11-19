@@ -54,8 +54,7 @@ li a:hover {
 /* making the image fit as the background for the services block on the home page */
 
 #services_home {background-image: url("northpole.jpeg");
-  background-color: #ffffff;
-  height: 500px;
+  height: inherit;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -8,7 +8,7 @@ h1,body,h2,h4,h5 {font-family: "Agency FB Bold", serif;}
 /* NAV BAR BORDER REFERENCE https://stackoverflow.com/questions/42707218/css-how-to-put-a-border-around-the-entire-nav-bar*/
 #navbar {
   list-style-type: none;
-  border: 1px solid #5F9239;
+  border-bottom: 1px solid #5F9239;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -23,7 +23,6 @@ li {
 li a {
   display: block;
   color: #5F9239;
-  
   text-align: center;
   padding: 20px 20px;
   text-decoration: none;
@@ -42,15 +41,6 @@ li a:hover {
     color: #ffffff;
 }
 
-li a.active {
-  background-color: #ff4d4d;
-  color: #ffffff;
-}
-
-li a:hover:not(.active) {
-  background-color: #ffffff;
-  color: #5F9239;
-}
 
 /* end of 'nav bar' style */
 

@@ -12,7 +12,7 @@
 </head>
   
 <!-- HEADER -->
-<header class="w3-container w3-center w3-padding-32"> 
+<header class="w3-container header headerPadding"> 
   
   <div class="logo">
     <img src="gnss_logo_150.png" alt="The GNSS Logo that contains a globe, santa's sleigh, and text that reads GNSS">
@@ -23,8 +23,8 @@
 </header>
 
 <!--Allan beldan: in charge of navbar-->
-<body class="w3-light-grey">
-  <div class="w3-content" style="min-width:400; max-width:1400px">
+<body class="whiteBackground">
+  <div class="mainContent">
     <ul id="navbar">
       <!--w3schools css navigation bar -->
       <li>
@@ -39,36 +39,38 @@
       <li> 
         <a href="contact.html"> CONTACT </a>
       </li>
-      <li style="float:right"> 
+      <li> 
         <a href="Index.html"> HOME </a>
       </li>
      </ul>
     </div>
 
-
-<!-- w3-content defines a container for fixed size centered content, 
-and is wrapped around the whole page content, except for the footer in this example -->
-<div class="w3-content" style="max-width:1400px">
+<div class="mainContent" style="max-width:1400px">
 
 <!-- Grid -->
+<!-- Responsive Design Class from w3 schools-->
 <div class="w3-row">
 
 <!--Ben Colgan: in charge of blog entries-->
 <!-- Blog entries -->
+<!--Responsive Design for Columns from w3 schools -->
 <div class="w3-col l8 s12">
   <!-- Blog entry -->
   <div id="services_home">
-    <div class="w3-card-4 w3-margin w3-white">
+    <div class="mainCard-4 mainBorder whiteBackground">
+      <!-- Responsive Design from w3 schools-->
       <div class="w3-container">
         <h2> SLEIGH AND REINDEER SERVICES </h2>
       </div>
-
+      <!-- Responsive Design from w3 schools-->
       <div class="w3-container">
         <p> We offer an assortment of services including the manufacturing, selling, and maintainance of our premium sleighs. We also offer reindeer adoptions and boarding options. </p>
+        <!-- Responsive Design from w3 schools-->
         <div class="w3-row">
+          <!-- Responsive Design for columns from w3 schools-->
           <div class="w3-col m8 s12">
           <!--how to make a button work like a link https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html-->
-            <h3><button class="w3-button w3-padding-large w3-white w3-border" onclick="window.location.href = 'services.html';"> LEARN MORE »</button></h3>
+            <h3><button class="butttonClass paddingLarge whiteBackground mainBorder" onclick="window.location.href = 'services.html';"> LEARN MORE »</button></h3>
           </div>
         </div>
       </div>
@@ -77,15 +79,18 @@ and is wrapped around the whole page content, except for the footer in this exam
   <hr>
   
   <!-- Blog entry -->
-  <div class="w3-card-4 w3-margin w3-white">
+  <div class="mainCard-4 mainBorder whitebackground">
+    <!-- Responsive Design from w3 schools-->
     <div class="w3-container">
       <h2> MEET OUR TEAM </h2>
     </div>
-
+    <!-- Responsive Design from w3 schools-->
     <div class="w3-container">
+      <!-- Responsive Design from w3 schools-->
       <div class="w3-row">
+        <!-- Responsive Design from w3 schools-->
         <div class="w3-col m8 s12">
-          <h3><button class="w3-button w3-padding-large w3-white w3-border" onclick="window.location.href = 'employees.html';"> LEARN MORE »</button></h3>
+          <h3><button class="buttonClass paddingLarge whiteBackground mainBorder" onclick="window.location.href = 'employees.html';"> LEARN MORE »</button></h3>
         </div>
       </div>
     </div>
@@ -96,59 +101,40 @@ and is wrapped around the whole page content, except for the footer in this exam
   
 <!-- Introduction menu -->
 <!--Emily Kingdon: in charge of cards (right hand side on the main page, and photos-->
-<div class="w3-col l4">
+<!-- Responsive Design from w3 schools-->
+  <div class="w3-col l4">
   <!-- About Card -->
-  <div class="w3-card w3-margin w3-margin-top">
+  <div class="mainCard mainBorder mainBorder-top">
   <img src="/w3images/avatar_g.jpg" style="width:100%">
-    <div class="w3-container w3-white">
+    <!-- Responsive Design from w3 schools-->
+    <div class="w3-container whiteBackground">
       <h2><b> REQUEST A QUOTE </b></h2>
-      <h3><h3><button class="w3-button w3-padding-large w3-white w3-border" onclick="window.location.href = 'contact.html';"> CONTACT US »</button></h3> </p>
+      <h3><h3><button class="butttonClass paddingLarge whiteBackground mainBorder" onclick="window.location.href = 'contact.html';"> CONTACT US »</button></h3> </p>
     </div>
   </div><hr>
   
-  <!-- Posts -->
-  <div class="w3-card w3-margin">
-    <div class="w3-container w3-padding">
-      <h2> PAST PRODUCTS </h2>
+     <div class="w3-col l4">
+  <!-- About Card -->
+  <div class="mainCard mainBorder mainBorder-top">
+  <img src="/w3images/avatar_g.jpg" style="width:100%">
+    <!-- Responsive Design from w3 schools-->
+    <div class="w3-container whiteBackground">
+      <h2><b> PAST PRODUCTS </b></h2>
+      <h3><h3><button class="butttonClass paddingLarge whiteBackground mainBorder" onclick="window.location.href = 'products.html';"> CONTACT US »</button></h3> </p>
     </div>
-    <ul class="w3-ul w3-hoverable w3-white">
-      <li class="w3-padding-16">
-        <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Lorem</span><br>
-        <span>Sed mattis nunc</span>
-      </li>
-      <li class="w3-padding-16">
-        <img src="/w3images/gondol.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Ipsum</span><br>
-        <span>Praes tinci sed</span>
-      </li> 
-      <li class="w3-padding-16">
-        <img src="/w3images/skies.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Dorum</span><br>
-        <span>Ultricies congue</span>
-      </li>   
-      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
-        <img src="/w3images/rock.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Mingsum</span><br>
-        <span>Lorem ipsum dipsum</span>
-      </li>  
-    </ul>
-  </div>
-  <hr> 
- 
+  </div><hr>
+
   
-<!-- END Introduction Menu -->
+<!-- ENDING THE Introduction Menu -->
 </div>
 
-<!-- END GRID -->
-</div><br>
-
-<!-- END w3-content -->
+<!-- ENDING THE PAGE CONTENT -->
 </div>
 
 <!--Sam Libby: footer-->
-<!-- Footer -->
-<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+<!-- FOOTER -->
+<!-- Responsive Design from w3 schools-->
+<footer class="w3-container dark-red padding-32 mainBorder-top">
   <div id="footer">
     <p> Reindeer Powered </p>
   </div>
